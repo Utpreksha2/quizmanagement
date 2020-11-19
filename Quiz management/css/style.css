@@ -1,0 +1,87 @@
+
+*{
+	padding: 0;
+	margin: 0;
+	
+}
+.navbar{
+	height:80px;
+	width: 100%;
+	background: rgba(0,0,0,0.4);
+}
+.logo{
+	width: 100px;
+	height: 79px;
+	padding: -1px 30px;
+
+
+}
+.navbar ul{
+	float:right;
+	margin-right: 20px;
+}
+.navbar ul li{
+	list-style: none;
+	margin: 0 8px;
+	display: inline-block;
+	line-height: 80px;
+}
+.navbar ul li a{
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+	padding: 6px 13px;
+	font-family: 'Roboto',sans-serif;
+	transition: .4s;
+
+}
+.navbar ul li a.active,
+.navbar ul li a:hover{
+	background: red;
+	border-radius: 2px;
+
+}
+body{
+	margin:0;
+	padding: 0;
+	background: green;
+
+}
+.slidershow{
+	width: 700px;
+	height: 400px;
+	overflow: hidden;
+
+}
+.middle{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.navigation{
+	position: absolute;
+	bottom: 20px;
+	left: 50%;
+	transform: translateX(-50%);
+	display: flex;
+
+}
+.bar{
+	width:50px;
+	height: 10px;
+	border: 2px solid #fff;
+	margin: 6px;
+	cursor: pointer;
+	transition: 0.4s;
+}
+.bar:hover{
+	background: #fff;
+}
+
+input[name="r"]{
+	position: absolute;
+	visibility: hidden;
+
+}
+
